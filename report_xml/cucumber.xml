@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.169" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Application Multi Deals Feature" name="User Login with Valid Credentials" time="0.02">
+<system-out><![CDATA[
+Given user is on application home page......................................passed
+When application page title is FREE CRM.....................................passed
+Then user clicks START HERE button..........................................passed
+Then user enters username and password......................................passed
+Then user clicks Login button...............................................passed
+And navigates to user profile page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Multi Deals Feature" name="User Login with Invalid Credentials" time="0.003">
+<system-out><![CDATA[
+Given user is on application home page......................................passed
+When application page title is FREE CRM.....................................passed
+Then user clicks START HERE button..........................................passed
+Then user enters username and password......................................passed
+Then user clicks Login button...............................................passed
+And user is on application home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Multi Deals Feature" name="User Login with Valid Credentials and Create New Deal" time="0.002">
+<system-out><![CDATA[
+Given user is on application home page......................................passed
+When application page title is FREE CRM.....................................passed
+Then user clicks START HERE button..........................................passed
+Then user enters username and password......................................passed
+Then user clicks Login button...............................................passed
+And navigates to user profile page..........................................passed
+Then go to deals............................................................passed
+Then click on create........................................................passed
+Then user enters deal details...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
